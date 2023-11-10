@@ -1,6 +1,6 @@
-#Auto Time Sheet GS
+# Auto Time Sheet GS
 
-##Description
+## Description
 
 This program uses the googleapiclient library to create resources for GoogleSheets and GoogleDrive and perform the necessarry OAuth2 validations.
 
@@ -12,7 +12,7 @@ SheetToolsPlus includes the Mapper class that I created to parse the html and ma
 
 The calculated dates and times are added and the online google sheet is updated via a JSON request. 
 
-##Progress
+## Progress
 Currently debugging errors with the final JSON data
 
 
