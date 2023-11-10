@@ -20,4 +20,8 @@ Currently debugging errors with the final JSON data
 ## Background 
 I made this project to gain some experience working with webapis and json requests. I also wanted to work on a larger codebase to improve my skills with OOP.
 
+## Challenges & Solutions
+Initial challenges with this project pertained to familiarizing myself with the documentation for Google's Drive and Sheet APInitial challenges with this project pertained to familiarizing myself with the documentation for Google's Drive and Sheet API.This conisted mostly of research and micro-projects to learn the api functions used here.
+
+The second challenge I encountered emerged when I decided to go the route of downloading and parsing the html of the google sheet. Put simply, the html tables for GoogleSheets is dynamic (the number of tds and trs representing the cells themselves change depending on whether the cell is a merged cell). In order to properly map the merge cells to the local matrix, I developed a function that reads the html table, checks the attributes of the trs and tds, and uses that to calculate the horizontal and vertial merge size while mapping the data.
 
